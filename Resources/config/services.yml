@@ -1,0 +1,4 @@
+services:
+#    smarter_solutions_ez_components_ez_image_crop.example:
+#        class: SmarterSolutions\EzComponents\EzImageCropBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
