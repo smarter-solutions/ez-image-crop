@@ -1,3 +1,0 @@
-smarter_solutions_ez_components_ez_image_crop_homepage:
-    path:     /hello/{name}
-    defaults: { _controller: SmarterSolutionsEzComponentsEzImageCropBundle:Default:index }
