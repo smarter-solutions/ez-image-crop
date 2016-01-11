@@ -51,3 +51,4 @@ ezpublish:
                         - { name: gravity/center, params: [200, 75] }
 ...
 ```
+
