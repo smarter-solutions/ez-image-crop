@@ -7,8 +7,7 @@
     "minimum-stability": "stable",
     "require" : {
     	"php": ">=5.3.0",
-    	"symfony/symfony": ">=2.5",
-    	"ezsystems/ezpublish-kernel": ">=2014.11",
+    	"symfony/symfony": ">=2.3",
         "liip/imagine-bundle": "~1.0"
     },
     "autoload" : {
