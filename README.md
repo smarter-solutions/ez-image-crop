@@ -4,12 +4,12 @@ This is a tool that improves cutting images in eZ Publish
 ## Install Package
 
 ```bash
-composer require smarter-solutions/ez-image-crop "~1.0"
+composer require smarter-solutions/ez-image-crop "~2.0.0"
 ```
 ## Register Bundle
 
 ```php
-// ezpublish/EzPublishKernel.php
+// app/AppKernel.php
 
 class EzPublishKernel extends Kernel
 {
@@ -29,17 +29,18 @@ class EzPublishKernel extends Kernel
 ## Define filters
 
 ```yaml
-# ezpublish/config/ezpublish.yaml
+# ezpublish/config/ezplatform.yml
 
 ezpublish:
     imagemagick:
+        path: /usr/bin/convert
         filters:
             gravity/center: '-gravity Center'
 ...
 ```
 ## Create Image alias
 ```yaml
-# ezpublish/config/ezpublish.yaml
+# ezpublish/config/ezpublish.yml
 
 ezpublish:
     system:
